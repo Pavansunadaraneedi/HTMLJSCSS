@@ -1,0 +1,7 @@
+Object is a physical entity.It contains properties and methods. Object defined in key-values pairs
+let obj = {
+    name: "raj"
+    age: 55,
+    display: function(){console.log("hello world")}
+}
+you get name value using dot notation (obj.name)or index signature(obj['name'])

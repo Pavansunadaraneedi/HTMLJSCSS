@@ -1,0 +1,48 @@
+HTML5 is the latest version in HTML which brings lot of changes to HTML4.
+
+i.sematic elements: These elements are used to make the code readable and improves SEO
+eg: header, nav, figure, fooster, aside.
+<header>
+   <nav>
+   </nav>
+</header>
+<main>
+      <section></section>
+      <article></article>
+      <aside></aside>
+</main>
+<fooster>
+</fooster>
+
+ii. video, audio support:
+      HTML brings video support and audio support directly.Also it bringss picture tag for responsive images.
+      
+      <video>
+      <source src= "path"/>
+      </video>
+      <audio>
+          <source src= "path"/>
+      </audio>
+
+
+iii. svg: svg stands for Scalable vector graphics . we can draw custom shapes
+using svg elements such as circle , rect ,line,text or path 
+
+
+ <svg> 
+   <circle cx="20" cy="20" r="20" fill="blue"></circle>
+ </svg>
+
+
+ iv. canvas : canvas stands for  empty container which can be used for 2d/md graphics
+ using javascript
+ 
+ v.summary and detail : we can use summary and details as a simple accordings 
+      
+     <details>
+     <summary >What is HTML?</summary>
+      HTML stands for Hypertext markup language
+     </details>
+     
+vi. HTML elements can also   be drag n drop by adding an attribute
+    draggable = true 

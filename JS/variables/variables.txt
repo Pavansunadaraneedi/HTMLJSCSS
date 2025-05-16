@@ -1,0 +1,27 @@
+Variable are used to store the value that varies/changes 
+In JS, there are three ways to store a value in  variable/ decalre a variable 
+i. var
+ii. let 
+iii. const 
+
+i. var:
+--> var is a functional scoped variables.
+--> var values can be redeclared.
+--> var value can be reassigned.
+--> var valus can be used before intialization.
+
+ii. let:
+--> let is block scoped variable.
+--> let value cannot be redeclared.
+--> let value can be reassigned.
+--> let value cannot be used  before intialization.
+
+iii. const:
+--> const is a block scoped variable.
+--> const values cannot be redeclared.
+--> const values cannot be reassigned.
+--> const values cannot be used before intialization.
+
+NOte: It is always better to use let & const.
+
+//write a simple js code for square of a number 

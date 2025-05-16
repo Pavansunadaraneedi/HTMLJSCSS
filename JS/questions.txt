@@ -1,0 +1,7 @@
+What is the use of JS ?
+Where the JS will run ?
+How many you include JS in HTML ?
+What is the use of console ?
+What is the diff between let,var,const ?
+How many datatypes in JS ?
+What is the result of console.log(math.ceil(4.1))1?

@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+div{
+    display: inline-block;
+}
+.one{
+    background-color: red;
+    /*float: left;*/
+}
+.two{
+    background-color: rgb(44, 213, 44);
+  /*  float: left;*/
+  display: none;
+}
+.three{
+    background-color: rgb(94, 184, 233);
+
+}
+img{
+    float: left;
+    height: 200px;
+    width: 300px;
+    clear: both;
+}
+p{
+    clear: both;
+    
+}
+p{
+
+    display: inline;
+}

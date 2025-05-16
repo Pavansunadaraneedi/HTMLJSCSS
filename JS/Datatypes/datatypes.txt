@@ -1,0 +1,94 @@
+Datatypes: Datatypes are used to define the type of data .there are primarily two types of data types available
+i.primitive Datatypes
+ii.Non-primitive Datatypes
+
+primitive Datatype: primitive Datatypes are used to store the value directly and these are immutable (can't change)
+
+Non-primitive Datatype; Non-primitive Datatype are used tostore values based on primitive Datatype and these are mutable.these are also called reference datatype 
+eg: functions, arrays, objects, etc..,
+
+i. number: any numerical value in js is considered as a number 
+eg: let x=25;
+    console.log (type of x)
+
+    browser provides some defaulkt methods for numbers such as ,
+    a. tofixed(noofFractionDigits):it returns new value that got round off per n number of digits after decimal
+    eg : let a=25.1463;
+    a.tofixed(2); //25.15
+    b.tostring(basenumber): it is used to convert number into string and it can also convert number into any based 
+    eg:let a+16;
+    a.tostring(2) //'1000'
+
+    Math Methods: 
+        These methods are used to mathematical operations using Math class(default)
+        i.Math.abs(): It is used to remove negitivity of the values 
+        eg: Math.abs(-4) --> 4
+        ii.Math.sqrt(): It is used to return the square root of the value 
+        eg: Math.sqrt(25) --> 5
+        iii.Math.cbrt(): it is used to return the cube root of the value
+        eg: Math.cbrt(27) --> 3
+        iv.Math.ceil(): It is used to return the upper value (nearest upper interger)
+        eg: math.ceil(4.1) --> 5
+        v.Math.floor(): It is used to return the lower value (nearest lower interger)
+        eg: Math.floor(4.8) --> 4
+        vi.Math.round(): It return rounding off to the value 
+        eg: Math.round(4.6) --> 5
+        vii.Math.random: It returns random value between 0 and 1
+        eg: math.random() --> 0.5126
+        viii.Math.max(): It return maximum value amoung available
+        eg: Math.max(5,6,1,3) --> 6
+        ix.Math.min():  It return manimum value amoung available
+        eg: Math.max(5,6,1,3) --> 1
+
+        You can use , log , exp , pi ,etc..,
+
+ii. Strings : Strings are used to store alphanumerical values (combination of letters and number )
+        Strings can be represented in 3 ways 
+        i.single quotation: Strings can represented using single quotations 
+        eg: lest s = 'Pavan';
+
+        ii.Double quotes: Strings can represented using double quotations 
+        eg: lest s = "Pavan";
+        There is no diff between  single or double quotes but can be used inside nested quotes
+        eg: let msg = ' The time is 5'0 clock '
+
+        iii.Backtick: Strings can also represented using backticks, usually it is used to print dynamic value insides the string without breaking the string for dynamic value , we keep ${}
+        This type of string are called template literals.
+
+
+String methods: 
+        There are so many methods strings have by default in javascript
+        a. length: it returns the number of characters in a string 
+        b. toUpperCase(): It returns the string into uppercase string 
+        c.toLowerCase(): It returns the string into lowercaswe string
+        d.charAt(): return character at given index
+        e.indexOf(): return the index of given character's first occurence
+        f.LastIndexof: return the index of given character's last occurence
+        g.concat: return combination of given string with original string 
+        h.includes: return an array of valiues split based on delimiter
+        i.split(): return an array of values split based on delimiter 
+        j: join(): return string by combining all elements of the array using delimiter
+        k. startsWith(): return true/false based on whether string is starting with g
+        k: startsWith(): returns true/false based on whether string is starting with given value or not
+        l: endsWith(): returns true/false based on whether string is ending with given value or not
+        m: replace(): returns new string with replacement of first occurence of old string with new string
+        n. replaceAll(): returns new string with replacement of all occurences of old string with new string
+        o: slice(starting,end): returns part of string from starting index to stop index.
+         stop index not defined
+         if only start index given, it takes from start index to end of string 
+
+
+iii. boolean: boolean is a datatype which used to store true(1) or flase(0).
+
+iv. undefined : undefined is the accidental absence of value 
+eg: console.log(a);
+var a=20;
+
+V.null: null is the intentional absence of value , usually used to represent empty/void value for any object key
+eg : var name=null;
+
+
+
+
+
+

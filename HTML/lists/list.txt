@@ -1,0 +1,53 @@
+Lists :
+    Lists are used in  certain elements .
+THERE ARE THREE KINDS OF LISTS AVAILABLE IN HTML.
+1. ORDERED LISTS :
+        ORDERED LISTS ARE USED TO LIST CERTAIN ITEMS/ELEMENTS 
+        IN AN ORDER. IT USES 
+        'ol' tag for list and 'li' tags for each list 
+        item
+        eg: <ol>
+              <li>something1<li>
+              <li>something2<li>
+              </ol>
+
+By default the type is number so both list item will be appeard as number list 
+
+There are 5 types of ordered list are avalable (numbers,uppercase, lowercase alphabets,uppercase, lowercase Roman numbers)
+
+
+
+To start with a specific 
+
+<h2><U>Lists</U>:</h2>
+    <h3>Things to do: </h3>
+    <ol type="A" start="27>"
+        <li> complete office work</li>
+        <li>Go out</li>
+        <li>Eat and Sleep</li>
+    </ol>
+
+
+    ii. Unordered lists :
+             In some lists, order is not much important. Those lists are represented by the unordered lists.
+        These lists uses 'ul' tag and for each list item it uses 'li' tag
+
+        eg: <ul> 
+        <li>Always practice</li>
+        <Li>Learn with passion</Li>
+        <li>Don't depend on AI</li>
+    </ul>
+
+iii. Definition Lists : Definition lists are used to define certain Definition or timelines etc...,
+Definition lists uses 'dl' tag for each Definition, you need one definition term (dt) and definition data (DD))
+
+
+
+
+
+
+
+
+
+
+One list can be added inside another list called 

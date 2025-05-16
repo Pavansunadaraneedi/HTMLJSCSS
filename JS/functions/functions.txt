@@ -1,0 +1,121 @@
+Functions : function is a reusable block of code used for specific task.
+Js follows Functions or modular programming where functions place crucial role.
+
+Syntax: function function_name()//function prototype
+{
+    //statement
+}
+
+function_name() // function call
+ex:
+function display()
+{
+    console.log("Hello world")
+}
+display()
+
+function parameter:
+
+
+
+// sum of 2 numbers with parameters
+function sum1 (a, b)
+{
+    console.log(a + b);
+}
+sum1(5, 6)
+sum1("Pavan", "sandy")
+
+//task - create a function that accepts a string as parameter and print its in console
+function printlen(a)
+ {
+    console.log(a.length);
+ }
+ printlen("PAVAN")
+
+ // sometimes we forgot to pass all parameters, in that cas we can give default parametervvalues.
+
+ function function_name(x=5)
+ {
+   console.log(x+1)
+ }
+ function_name(10)
+
+ // Rest operator 
+ It is used accepts more/remaining parameter into one parameter as a array
+
+ //sum with rest 
+ function sum3(...b)
+ {
+    let sum = 0;
+    for(let i of b)
+    {
+        sum = sum + 1
+    }
+    console.log(sum);
+ }
+ sum3(10,5,4,6,3)
+Always rest operator should be the last parameter and preceeded and by three  dots
+
+// spread operator
+it is used to spread out the element of array and it is also preceeded by three dots 
+// add to arrays
+ let arr=[5,4,6], arr2 = [1,2,3];
+ let arr3 = [...arr,...arr2]
+
+ spread is used when giving the values and rest is used when accepting the values 
+ spread removes the array and rest makes the array 
+ spread can be written anywhere but rest should be at the end of parameter list
+
+Functions can even written the values,
+function function_name()
+{
+    return value;
+}
+function_name();
+
+sometimes, it is possible to skip the return keyword using Arrow function.
+Arrow functions are a modern way of representing function expression
+function expression are a way to represents anonymous function(function without a name) as a valuelet x = function(){console.log("Hi")}
+now x contains whole function and calling x leads to function call
+
+the modern way written functions expressions is arrow functions. Arrow functions doesn't need function keyword and return automatically without return keyword if only one statement is there 
+
+function sum(a,b)
+{
+    return a+b;
+}
+cons 2z = (a,b) => a+b;
+
+function can even pass other functions as a parameters. The function which is passed as a parameter to another function is called callback function and the function that receives another
+
+ function x()
+//     {
+//         console.log(" i'm X + (p+q)")
+            
+//     }
+
+//  function doPrint (a)
+//     {
+//      a(5,3)
+//     }
+// doPrint(x) // x is callback and doPrint is higher order function
+
+//closure :
+closure are used to memories the previous result. it is used in technique
+
+//// closure
+// function outer ()
+//     {
+//         let x = 10;
+//         function inner(){
+//             x++;
+//             console.log(x)
+//         }
+//         return inner;
+//     }
+//     let z = outer ()
+//     console.log(z)
+//     z()
+//     z()
+//     z()

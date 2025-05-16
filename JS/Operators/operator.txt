@@ -1,0 +1,58 @@
+Operators are used to perform simple operation between operands.
+There are different types of operators:
+i. Arithematic operators:
+
++ -- used for addition
+- -- used for subtraction 
+* -- used for multiplication
+/ -- used for division 
+% -- used for remainder
+** -- used for power
+
+ii.logical operators: 
+    && -- return true only if all condition are true else false -- logical and
+    || -- Return flase only if all condition are flase else true -- logical or
+    ! -- return ttrue if condition is false vice versa -- loggical not
+
+iii. RElational operators: 
+    > -- used for comparing first value is greater than the second value or NOT
+    < -- used for comparing first value is less than the second value or NOT
+    >= -- used for comparing first value is greater than or equal to the second value or NOT
+    <= -- used for comparing first value is less than or equal to  the second value or NOT
+    == -- used to comparing two values equal or not irrespective of their data types
+    === --  used to comparing two values and their data types are equal or NOT
+    != -- used for comparing two value are not equal or noit irrespective of their data types
+    !== -- used to comparing two values and their data types not equal or not 
+
+iv.Assigment operators:
+    += ---> a+=1 --> a=a+1;
+    -= ---> a-=1 --> a=a-1;
+    *= ---> a*=1 --> a=a*1;
+    /= ---> a/=1 --> a=a/1;
+    %= ---> a%=1 --> a=a%1;
+    **= ---> a**=1 --> a=a**1;
+
+v. Ternary operator:
+
+
+eg: let c =4;
+let x = (c>2) ? 10 : 20;
+here x is 10 since c>2 is true
+
+vi. Unary +: it bis used to change data type of any value to number . any value preceeding with unary + automatically converted asn number data type
+eg: +'4'+2 ==>6
+
+   JS  is a dynamically tyoed language. The datatype is decided based on value it contains . we can conver any data type using classes Number(), string(), boolean() etc ..,
+   By default based on operation they also get converts 
+
+vii. Increment(++) and decrement (--):
+   These are used to increase or decrease the value by 1
+   These operators have two variation pre and post 
+    pre Increament (++a): it firts update (increase by 1) the value and assigns it 
+    post Increament (a++): it first assign the value and then updates(increase by 1)
+    post decrement(--a): it first upadtes (decreases by 2) the value and assign it 
+    post decrement(a--): it first assign the value and then updated (decrease by 1)
+
+    let x = 10 , y = 20;
+    let z = ++x + x++ + --y + y--;
+

@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  width: 100vw;
+
+}
+#main{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+img{
+    object-fit: cover;
+    height: fit-content;
+}
+.child>img{
+    border: 1px solid blue;
+   
+}
+.child1{
+    grid-row: 1/4;
+}
+.child1>image{
+    height: 100px;
+}
+.child2{
+    grid-column: 2/4;
+}
+.child3{
+    grid-column: 4/5;
+}
+.child6{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}

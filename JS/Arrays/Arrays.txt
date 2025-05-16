@@ -1,0 +1,68 @@
+Arrays: Arrays are used to store different elements. Arrays elements are represented in square brackets. Every Element contains unique position value called index. Arrays indexes starts with zero
+eg: let arr = [8,9,6,-1,4,0];
+console.log(arr[1]) //9
+console.log(arr[10]) //undefined
+
+//Arrays Methods
+To perform different Tasks, Arrays have default methods 
+i. length : length is used to get total number of elements in the array
+ii. push : push is used to add a value/values to the end of the array
+iii. pop : pop is used to remove the last value of the array
+iv. unshift : unshift is used to add the values to the starting of the array
+v. shift : shift is used to remove the starting value of the array.
+vi. splice(index,deleteCount,insertValues):
+     if only index number is given , deletes all values from that index
+     if index and deleteCount is given, deletes as deleteCount values from index
+     if index, deleteCount and insertValues are given, it removes values as per deleteCount from index and add insertValues from that index
+vii. reverse: it is used to reverse the array elements
+viii. indexOf : it is used to find the index of first occurence of a element
+ix. lastIndexOf : it is used to find the index of last occurence of a element.
+x.  forEach : forEach method takes a callback function to returns that callback function to each and every element of the array. it passes element and index to the call back function.
+    array.forEach(callbackfunction(element,index))
+
+    eg: let arr = [1,2,3];
+        arr.forEach((v,i)=>{
+            console.log(v,i)
+        })
+
+xi map: map is exactly same as forEach but map can return the valuesarray.map(callbackfunction(element,index))
+       array.map (callbackfunction(element,index))
+       eg : arr =[1, 2, 3, 4]
+            const arr5 = arr.map((v)=>
+            {
+               return v*2
+            })
+            console.log(arr5)
+
+xii.filter: filter is also exactly like map but it return only the condition values
+            array.filter(callbackfunction(element,index))
+            eg: let arr = [1,2,3]
+            arr.filter((v,i)=>{
+                console.log(v,i)
+            })
+
+xiii. some : some will return true if the condition is true for atleast one element of the array, else it return false
+xiv. every : every will return true if the condition is true for every element of the array , else it returns false
+xv. sort : sort is used to sort the elements of the array
+    without callback function , sort will sort the elements based on alphabetically.It even checks the number one after other digits and compare them
+    callback funt can take two parameters as neighbour values and 
+    i.if function returns negitive, no need of swapping 
+    ii.if the function return positive , swap the digits
+    let arr =[5,4,6,1,11,14,,8]
+    //console.log(arr.sort()) //[1,11,14,4,5,6,8]
+arr.sort((a,b)=>a-b)//increasing order
+console.log((a,b)=> b - a);//reverse order
+console.log(arr);
+
+xvi. reduce : reduce is used to get cummulative results from an array
+
+
+
+
+
+
+
+
+
+
+

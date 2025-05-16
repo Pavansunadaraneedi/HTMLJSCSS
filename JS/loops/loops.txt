@@ -1,0 +1,80 @@
+Loops: loops are used to iterative certain statements. Basically loops are two 
+
+
+
+i.Entry Control loops: 
+     These loops checks the condition at the starting of loop. it will enter only if the condition is true and exit when conditon is false. Until the condition is false the loop iterates.
+     eg: while, for 
+     check condition
+     true
+        runs statement1
+        again check condition
+    false
+       stop
+
+ii. Exit Control loops: 
+     These loops checks the condition at the ending of loop. it will enter loop without condition but while exiting it chechks the condition, if it is true it re-run again, else it will stop
+     eg: do while
+
+     i.While: while is entry control loop that iterates until the condition fails.
+     syntax: intialization;
+             while(condition){
+                //statement;
+                updation;
+             }
+            
+    eg : let i = 1;
+        while(i<10){
+            console.log(i);
+            i++;
+        }
+
+        Mostly when intialization, condition and udation are need to be in separate places, then will go for while 
+
+        ii. do while : do while is a exit control loop which will get intial run without check and will iterate until condition false.
+         intialization;
+         do{
+            //statement;
+            updation;
+         }while(condition);
+
+         Task : print even number from 10 to  1 in reverse order using while and do while 
+         output : 10 
+                  8
+                  6
+                  4
+                  2
+
+        task2 : print all letter of the string in reverse order without space
+        sample input: "I Love JS"
+        sample output: "SJevoLI"
+
+iii. for loop : for loop is used as a entry control loop but intialization,condition, updation are in same line
+  
+   for(intialization;condition;updation)
+   {
+      //statement
+   }
+
+//print number from 10 to 1 using for 
+
+for (let i = 10; i >= 1; i--)
+{
+  console.log(i)
+}
+
+Variations of for:
+  In JS, For loop have so many Variations such as for ..of , for..in and foreach, for..of; it is used to print all values from the array
+
+  syntax: for(let variable of array)
+  {
+   console.log(variable)
+  }
+  here variable is considered as element 
+
+  for..in: It is used to print all values of object using key values 
+  syntax: for(let variable in array/object)
+  {
+   console.log(variable)
+  }
+  here variable is considered as index or object key

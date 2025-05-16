@@ -1,0 +1,67 @@
+AJAX(Asynchronous Javascript): It is a web development technique for creating dynamic and interactive web pages.
+   -->AJAX loads seperately
+   -->AJAX uses Javascript to send request and handle the responses from server
+   -->Asynchronous functions basically takes some time and always return promises
+   Eg: timers(setTimeout,setInterval), fetch etc..,
+
+SetTimeouts : It is used to assign a time for a callback function such that it will run only after given time is over 
+setTimeout(()=>{
+   console.log("hi")
+},5000)
+In above example, "hi" will print in console after 5 seconds
+clearTimeout : we can even stop the execution of callback in setTimeout before the time runs out using clearTimeout.
+
+setInterval : it is used to assign a time for a callback function such that it will run everytime the given time is over
+setInterval(()=>{
+   console.log("hi")
+},5000)
+In above example, "hi" eill print in console after every 5 seconds
+we can stop it using "clearInterval"
+let i = setInterval(()=>{
+   console.log("hi")
+},5000)
+clearInterval(i) will stop the setInterval
+
+Application Programming interfaces(API): API's are used to connect clients to server or any other Applications. It acts like a bridge between fronend(client) and backend(server), It follows the client server models. client request the server using an URL(httpRequest) andserver Responds to the client(httpResponse)
+There are so many API's like SOAP API , REST API, GraphQL.gRPC etc..,
+we use mainly in web development, REST API (REPRESENTATIONAL STATE TRANSFER). These API'S often send responses in JSON(Javascript Object Notation)stracture.
+In olden times, we used to use XMLHttpRequest() method for Requesting the sevrver but modern browsers supports a new method called "fetch".
+
+Every asynchronous function returns Promise.
+Promise: Promise is used to handle asynchronous functions, promise is an objects that contains eventual completion (or failure) of asynchronous operation. basically it contains details of an operation whether it will fulfill or reject or in pending
+Promise contains a callback that takes resolbve and reject. resolve function contains error that needs to be returned when pronise rejected.
+let p = new Promise((resolve, reject) =>
+{
+    let n = 20;
+    if (n % 2 == 0)
+    {
+    setTimeout(() => 
+        {
+            resolve("i got a job");
+        },5000)
+    }
+    else
+    {
+        reject("i did not get a job");
+    }
+})
+
+How to handle the promises?
+ Promises can be handled using then and actch. Anything that returns  by resolve will go to the then and anythging taht returns by reject will go the catch
+ p
+   .then((res) => console.log(res))
+   .catch((err) => console.log(err))
+
+
+fetch : fetch is the default web API's which takes url and option for http requests and return a promise. The promiss are then handled using then and catch
+fetch will not return direct data through promises, so we need to convert intial promise response into JSON. It will result a new promise and upon resolving it, we get the data 
+
+   fetch(url)
+   .then((res)=>res.json())
+   .then((data)=>console.log(data))
+   .catch((err)=>console.log(err))
+
+
+   we can solve promises using async await also, it is the modern methods to handle promise
+
+Async Await
