@@ -1,0 +1,63 @@
+colors
+------
+colorhunt.co
+https://www.realtimecolors.com/
+color picker
+color extension
+what font extension
+
+fonts:
+-------
+google fonts
+dafonts
+1001fonts
+
+images
+--------
+https://unsplash.com/
+https://www.freepik.com/
+pexels
+ideogram ai
+
+
+flexBox:
+https://flexboxlabs.netlify.app/
+
+https://animista.net/
+
+
+inspiration:
+dribble
+behance
+https://github.com/emmabostian/developer-portfolios
+
+extensions:
+intellisence for css classnames in HTML
+
+JS:
+freecodecamp - legacy JS
+scrimba js challenges
+https://developer.mozilla.org/en-US/
+https://javascript.info/
+https://masri.blog/Blog/Coding/Potfolios/Collection-of-150-awesome-portfolios?ref=dailydev
+
+
+API LIST:
+https://dev.to/hanzla-baig/300-free-apis-every-developer-needs-to-know-2ohm?ref=dailydev
+
+pokeapi.com
+omdbapi.com
+tmdbapi.com
+newsapi.com
+dev.to api
+nasa api
+spacex api
+randomuser, randomquote, randomjoke, cat photos, dog photos
+fakestoreapi
+dummyjson
+sampleapis
+jsonplaceholder.typicode.com
+spotify
+cricketdata
+gemini
+https://iplocate.io/api/lookup

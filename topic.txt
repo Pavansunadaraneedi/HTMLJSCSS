@@ -1,0 +1,66 @@
+Internet Fundamentals
+UI & UX Design(figma)
+HTML:
+------
+   Introduction
+   headings,p,a,img
+   formatting tags
+   lists
+   block vs inline, semantic
+   tables
+   media
+   forms
+   HTML5
+
+Resources:
+-----------
+https://www.freecodecamp.org
+
+communities:
+-----------
+dev.to
+daily.dev
+hashnode
+medium
+
+CSS:
+-----
+Intro, different types of css,basic selectors
+fonts,colors,sizes
+box model(padding,margin,border,border-radius)
+float
+display-inline,block,inline-block,none
+position -absolute,relative,static,fixed,sticky
+display - flex   -- flexboxfroggy
+display - grid   -- gridgarden
+transitions
+animations
+media Queries
+
+Portfolio website
+Bootstrap:  utiliies, layout, breakpoints, colors, components, icons
+
+
+simple company site
+JS:
+-----
+   Introduction
+   variables
+   datatypes - number, strings, boolean, undefined,null
+   operators 
+   control statements (if, switch)
+   loops(while, do while, for, for of, for in)
+   functions
+   Arrays
+   Objects
+   
+
+JS Practice:
+______________
+freecodecamp , JS hero , https://30dayjavascript.js.org/08-day/ , https://leetcode.com/problemset/ , https://www.jschallenger.com/javascript-basics/ ,https://www.jschallenger.com/javascript-basics/
+
+
+DOM:
+________
+
+    DOM selection, DOM manipulation
