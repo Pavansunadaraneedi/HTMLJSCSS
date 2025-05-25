@@ -1,0 +1,44 @@
+Browser Object MOdel(BOM): whole Browser or JS engine maintained by an object called window. Understanding, using the window object is called Browser object MOdel.
+// --get url details--
+    let a = window.location.href;
+    console.log(a);
+    console.log(window.location.search);
+    window.location.reload //reloads the page
+    window.location.replace(url) //replace the url
+
+ <!--   window.history -->
+     window.history.back();
+     window.history.forward();
+
+Storages: Browser can save data using different storages techniques.
+localStorages and sessionStorage are two types of web storage mechanisms .Both allows you to store data locally on client slide
+
+difference Between them:
+
+localStorages data is peristence, it will stay even after Browser is closed or system restarts.
+ sessionStorage data is temporary storage. when user closes the Browser or session expires automatically it will be deleted
+data in session storage follows same orgin policy, means data is available for only for that domain.
+ typically 5mb per origin.same goes for localStorage allows 
+
+localStorage.setItem('name','Pavan')
+localStorage.GetItem('name')
+localStorage.RemoveItem('name')
+localStorage.clear()
+localStorage.length
+
+sessionStorage.setItem('name','Pavan')
+sessionStorage.GetItem('name')
+sessionStorage.RemoveItem('name')
+sessionStorage.clear()
+sessionStorage.length
+
+cookies: cookies are small text files a web server stores on a users device 
+
+There are different types of cookies
+session cookies, persistent cookies, 3rd party cookies, security cookies, httpOnly cookies
+eg: authentication, personalization, tracking, analytics
+
+cons : localStorage or sessionStorage should not contains secret information such as banking details, api key, login details 
+cookies should be allow only if it secire the data , always minimize cookies size
+
+// for video 

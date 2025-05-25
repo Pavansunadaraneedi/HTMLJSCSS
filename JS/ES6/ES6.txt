@@ -1,0 +1,38 @@
+ES6(Ecma script): Ecmascript is a scripting language standard used for the client side scripting of web.This is the foundation of JavaScript. It releases version updates for all scripting languages. we have several versions and the latesh one is ES15 released in 2024 .toExponentialES6 released in 2015 also known as ES2015 brought many new features like 
+  --> Template literals
+    --> let and const keywords
+    --> function optional parameters
+    function sum(a,b=6){
+        console.log(a+b);
+    }
+    sum(5);
+    --> Arrow functions
+    --> rest and spread operators
+    --> Destructuring of objects and arrays
+    --> ES6 modules FileSystem
+    --> OOP concepts
+
+ES6 Module System : Module System are used to connect communication between multiple js files
+
+There different modules Systems before ES6 like commonJS, reqiredJS, UMD etc .., but ES6 made it easy using keywords export and import
+Named export: use the Export keywords to export variables to export a single value or function 
+export const a =24; //named export
+export {fun,b} //named export
+export default a; //default export
+
+Named import : use curly braces {} to import exported values
+import {fun,a} from 'filepath'
+
+import alias : we can event import all values exported expects default as an object uding *
+import * as obj from 'filepath'
+
+default import: we can import the default exported value without braces and can even change the name. it identifies because correctly because one file will have only one default export
+ import a from path 
+
+ OOP: JS is functional oriented programming but ES6 introduced class keyword to use object approach into JS
+
+ object is a physical entity. object exits with properties and methods class is a structure for object. it is a collection/factory of object 
+ fruit - class - name - color, shape, taste, eat()
+ fruit object --> apple -->
+
+ each object contains individual dynamic memory of class data 
